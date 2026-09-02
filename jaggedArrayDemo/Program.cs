@@ -47,10 +47,10 @@ class Program
             }
         };
 
-        foreach (Product []product in products)
+        foreach (Product [] row in products)
         {
             
-            foreach(Product Pro in product)
+            foreach(Product Pro in row)
             {Console.WriteLine(Pro);
         }
 
